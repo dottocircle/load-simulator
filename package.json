@@ -1,0 +1,25 @@
+{
+  "name": "load-simulator",
+  "version": "1.0.0",
+  "description": "load testing, performance testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkhan004/load-simulator.git"
+  },
+  "keywords": [
+    "load",
+    "testing",
+    "performance",
+    "testing"
+  ],
+  "author": "Shakil Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkhan004/load-simulator/issues"
+  },
+  "homepage": "https://github.com/mkhan004/load-simulator#readme"
+}
