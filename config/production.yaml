@@ -1,0 +1,12 @@
+---
+  detailedErrors: false
+  logging:
+    raygun:
+      enabled: true
+      key: gimme a key!
+    logEntries:
+      enabled: true
+      # replace with a token for your service
+      key: blah blah key
+      level: info
+  env: production

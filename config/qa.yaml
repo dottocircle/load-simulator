@@ -1,0 +1,8 @@
+---
+  logging:
+    logEntries:
+      enabled: true
+      # replace with a token for your service
+      key: give me a key!
+      level: debug
+  env: qa

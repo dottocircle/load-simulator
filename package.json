@@ -6,13 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "load-simulator": "./load-simulator.js",
+    "activity-simulator": "./activity-simulator.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mkhan004/load-simulator.git"
   },
   "keywords": [
     "load",
-    "testing",
     "performance",
     "testing"
   ],
@@ -21,5 +24,19 @@
   "bugs": {
     "url": "https://github.com/mkhan004/load-simulator/issues"
   },
-  "homepage": "https://github.com/mkhan004/load-simulator#readme"
+  "homepage": "https://github.com/mkhan004/load-simulator#readme",
+  "dependencies": {
+    "aws-sdk": "^2.4.2",
+    "bunyan": "^1.8.1",
+    "co": "^4.6.0",
+    "csv-write-stream": "^2.0.0",
+    "everyconfig": "^1.0.2",
+    "fs": "0.0.2",
+    "le_node": "^1.3.1",
+    "loadtest": "^1.4.3",
+    "log": "^1.4.0",
+    "mkdirp": "^0.5.1",
+    "mysql": "^2.11.1",
+    "path": "^0.12.7"
+  }
 }
