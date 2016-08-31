@@ -1,8 +1,0 @@
----
-  server:
-    uri: localhost:3000
-  logging:
-    stdout:
-      enabled: false
-      level: debug
-  env: dev
